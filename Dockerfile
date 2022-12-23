@@ -4,6 +4,6 @@ ARG PORT
 ENV ${PORT}
 
 VOLUME /data
-EXPOSE ${PORT}
+EXPOSE 9000 ${PORT}
 
 CMD [ "./start.sh" ]
