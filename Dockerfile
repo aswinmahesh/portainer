@@ -6,4 +6,4 @@ ENV PORT ${PORT}
 VOLUME /data
 EXPOSE 9000 ${PORT}
 
-CMD [ "./start.sh" ]
+ENTRYPOINT [ "/portainer" ]
